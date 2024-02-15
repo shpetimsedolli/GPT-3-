@@ -21,6 +21,6 @@ window.addEventListener("resize", () => {
 
 var loader = document.getElementById("preloader");
 
-window.addEventListener("load", function () {
+var timeout = setTimeout(function () {
   loader.style.display = "none";
-});
+}, 1000);
