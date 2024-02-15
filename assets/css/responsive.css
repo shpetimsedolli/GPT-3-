@@ -1,0 +1,111 @@
+@media (max-width: 1000px) {
+  .navbar .links {
+    display: none;
+  }
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .activee {
+    animation-name: rotate;
+    animation-duration: 0.7s;
+  }
+  .toggle-button {
+    display: block;
+    color: #fff;
+    font-size: 30px;
+  }
+  @keyframes sLideInLeft {
+    from {
+      transform: translateX(-300px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  .navbar {
+    padding: 20px 0px;
+    .active {
+      animation-name: sLideInLeft;
+      animation-duration: 0.4s;
+      position: absolute;
+      top: 9%;
+      right: 0px;
+      display: flex;
+      flex-direction: column;
+      border-radius: 5px;
+      background-color: #fff;
+      padding: 40px;
+      li a {
+        color: #000;
+        font-weight: bold;
+      }
+      img {
+        display: none;
+      }
+    }
+  }
+  .main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .main__left {
+      text-align: center;
+    }
+    .main__left h1 {
+      font-size: 30px;
+    }
+    .main__left p {
+      font-size: 14px;
+    }
+    .main__input {
+      justify-content: center;
+    }
+    .main__input input {
+      width: 229px;
+      height: 60px;
+    }
+    .main__input button {
+      padding: 16px;
+    }
+  }
+  .apps {
+    .apps__wrap {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  .blog {
+    .blogwrap {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .blog__boxes {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .main {
+    .main__right img {
+      width: 400px;
+    }
+  }
+  .apps {
+    .apps__wrap img {
+      width: 400px;
+    }
+  }
+  .blog {
+    .first__blog {
+      width: 375px;
+      height: 400px;
+    }
+  }
+}
