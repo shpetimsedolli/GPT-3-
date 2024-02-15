@@ -137,3 +137,67 @@ body {
   gap: 50px;
   justify-content: center;
 }
+.gpt {
+  padding: 60px;
+  background-image: url(../images/Ellipse\ 39.png),
+    url(../images/Ellipse\ 40.png);
+  background-repeat: no-repeat;
+  background-position-y: 265px, 1px;
+  background-position-x: 750px, 1px;
+  background-color: #042c54;
+
+  .gpt__second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 90px 0px;
+  }
+
+  .gpt__second h1 {
+    font-size: 45px;
+    background: -webkit-linear-gradient(
+      rgb(250, 103, 238, 1),
+      rgb(250, 103, 100, 1)
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .gpt__second p {
+    color: #ff8a71;
+    font-size: 16px;
+  }
+
+  .gpt__third {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .third__box h4 {
+      font-size: 24px;
+      color: #fff;
+      margin-bottom: 45px;
+    }
+
+    .third__box p {
+      color: #81afdd;
+      font-size: 16px;
+      width: 333px;
+    }
+  }
+}
+
+.gpt__first {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gpt__first h4 {
+  font-size: 24px;
+  color: #fff;
+}
+
+.gpt__first p {
+  font-size: 16px;
+  color: #81afdd;
+}
