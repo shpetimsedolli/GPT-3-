@@ -201,3 +201,40 @@ body {
   font-size: 16px;
   color: #81afdd;
 }
+.apps {
+  margin: 100px 0px;
+
+  .apps__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+  }
+
+  .apps__content {
+    h6 {
+      color: #fff;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 34px;
+      background: -webkit-linear-gradient(
+        rgb(250, 103, 238, 1),
+        rgb(250, 103, 100, 1)
+      );
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    p {
+      color: #81afdd;
+      margin: 20px 0px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #ff8a71;
+    }
+  }
+}
